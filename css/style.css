@@ -1,0 +1,51 @@
+html,
+html * {
+  max-height: 999999px;
+  /*Android font fix*/
+}
+.body {
+    
+    height: auto;
+    margin: auto;
+    padding-top: 60px;
+    font-family: sans-serif;
+}
+
+.comment {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.child-comment {
+    margin-top: 10px;
+}
+.form-comment {
+    border: solid;
+    border-color: #ddd;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 15px;
+
+}
+.btn-post {
+    margin-top: 10px;
+}
+.btn-cancel {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+ 
+.text-comment {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    float: left;
+    
+}
+.res {
+    padding: 15px;
+}
+#res {
+    margin-top: 30px;
+} 
+
+
